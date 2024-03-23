@@ -1,0 +1,10 @@
+java_library_host {
+    name: "threetenbp",
+    srcs: ["src/main/java/**/*.java"],
+    target: {
+        windows: {
+            enabled: true,
+        },
+    },
+}
+
