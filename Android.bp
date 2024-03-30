@@ -6,5 +6,9 @@ java_library_host {
             enabled: true,
         },
     },
+    errorprone: {
+        javacflags: [
+            "-Xep:IdentityBinaryExpression:WARN",
+        ],
+    },
 }
-
