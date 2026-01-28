@@ -8,9 +8,10 @@ third_party {
   identifier {
     type: "Git"
     value: "https://github.com/ThreeTen/threetenbp.git"
+    version: "87e0c99b68de00239febbceb351be03921a098d1"
+    closest_version: "v1.6.8"
     primary_source: true
   }
-  version: "v1.6.8"
   last_upgrade_date { year: 2024 month: 3 day: 20 }
   license_type: NOTICE
 }
